@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="ass/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrap">
+            <h1>Paragon Brothers' Members</h1><br>
+            <form action="inc/regsuccess.php" method="POST" enctype="multipart/form-data">
+                <input type="text" name="f_name" placeholder="First name" required autofocus>
+                <input type="text" name="l_name" placeholder="Last name"required>
+                <input type="text" name="email" placeholder="E-mail" required>
+                <input type="text" name="phone_1" placeholder="Phone number 1" required>
+                <input type="text" name="phone_2" placeholder="Phone number 2" >
+                <input type="text" name="addr_1" placeholder="Contact address 1" required>
+                <input type="text" name="addr_2" placeholder="Contact address 2" >
+                <input type="text" name="town" placeholder="Town" required>
+                <input type="text" name="lga" placeholder="L.G.A" required>
+                <input type="text" name="state" placeholder="State of origin" required>
+                <input type="file" name="photo" >
+                <button type="submit" name="submit">Register</button>
+            </form>
+            <span class="log"><a href="admin/login.php" >Admin Login</a></span>
+        </div>
+    </body>
+</html>
